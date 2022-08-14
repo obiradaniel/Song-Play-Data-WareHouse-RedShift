@@ -7,12 +7,16 @@ def drop_tables(cur, conn):
     for query in drop_table_queries:
         cur.execute(query)
         conn.commit()
+        print("Table Dropped")
+    print("All Tables Dropped if existing")
 
 
 def create_tables(cur, conn):
     for query in create_table_queries:
         cur.execute(query)
         conn.commit()
+        print("Table Created")
+    print("All Tables Created")
 
 
 def main():
