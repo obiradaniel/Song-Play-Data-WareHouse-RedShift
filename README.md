@@ -9,7 +9,7 @@ A music streaming startup (Sparkify) stores all it's key event data on S3.
 This project implements a RedShift data warehouse to consume this data from S3, 
 load the data to redshift staging tables then transform the staged data
 and load it into the analytical tables and this point any analysis can easily
-be carried.
+be carried out.
 
 The whole project is based on mainly AWS Boto3 Python SDK and psycopg2 PostgreSQL library.
 ***
