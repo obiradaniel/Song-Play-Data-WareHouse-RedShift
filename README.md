@@ -37,3 +37,7 @@ The whole project is based on mainly AWS Boto3 Python SDK and psycopg2 PostgreSQ
 
 
 ### ***Obira Daniel, August 2022***
+
+## Database Schema
+
+![Database Schema](DB_Schema.png)
